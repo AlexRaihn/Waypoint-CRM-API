@@ -1,0 +1,96 @@
+# =========================================
+# .NET / Build
+# =========================================
+
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/artifacts/
+**/publish/
+
+# Compiled / generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# =========================================
+# Visual Studio
+# =========================================
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================================
+# JetBrains Rider
+# =========================================
+
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# =========================================
+# Test / Coverage
+# =========================================
+
+TestResults/
+test-results/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# =========================================
+# Node.js
+# =========================================
+
+node_modules/
+
+# =========================================
+# OS
+# =========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# Environment / Secrets
+# =========================================
+
+.env
+.env.*
+!.env.example
+
+# =========================================
+# User-specific / temporary
+# =========================================
+
+*.userprefs
+*.pidb
+*.scc
+*.bak
+*.swp
+*~
+~$*
+
+# =========================================
+# Docker
+# =========================================
+
+# Docker volumes / local data
+.docker/
+docker-data/
